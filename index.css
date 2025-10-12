@@ -1,0 +1,83 @@
+/* global */
+/* .m-block{
+  margin-block: 50px;
+} */
+
+/* global */
+  header picture img:hover {
+    animation: shake 1.5s infinite;
+  }
+  header {
+    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.5) , rgba(0 ,0 ,0 , 0.5) ) ,url(images/im-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .heading{
+    direction: ltr !important;
+    
+  }
+  .heading h3::after {
+    content: "|";
+    animation: typing 3s infinite alternate;
+    -webkit-animation: typing 3s infinite alternate;
+  }
+  @keyframes typing {
+    5% {
+      content: " I|";
+    }
+    10% {
+      content: " In|";
+    }
+   15% {
+      content: " Int|";
+    }
+    20% {
+      content: " Inte|";
+    }
+    25% {
+      content: " Inter|";
+    }
+    30% {
+      content: " InterB|";
+    }
+    35% {
+      content: " InterBu|";
+    }
+    40% {
+      content: " InterBui|";
+    }
+    45% {
+      content: " InterBuil|";
+    }
+    50% {
+      content: " InterBuild|";
+    }
+    55% {
+      content: " InterBuil|";
+    }
+    60% {
+      content: " InterBui|";
+    }
+    65% {
+      content: " InterBu|";
+    }
+    70% {
+      content: " InterB|";
+    }
+    75% {
+      content: "Inter|";
+    }
+    80% {
+      content: " Int|";
+    }
+    90% {
+      content: " In|";
+    }
+    100% {
+      content: " I|";
+    }
+
+  }
+  
