@@ -1,14 +1,89 @@
 /* global */
-/* .m-block{
-  margin-block: 50px;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-weight: 400;
+  font-family: 'Tajawal', sans-serif;
+}
+.tajawal-extralight {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tajawal-light {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tajawal-regular {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tajawal-medium {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tajawal-bold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tajawal-extrabold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tajawal-black {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
 
 /* global */
+/* navbar */
+nav .logo{
+filter: drop-shadow(0px 4px 4px 0px #FFFFFF40);
+width: 100px;
+}
+.cta{
+  width: 150px;
+  height: 55px;
+  background: linear-gradient(92.55deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.09) 49.25%, rgba(255, 255, 255, 0.15) 98.51%);
+  padding: 18px 32px;
+  border-radius: 64px;
+}
+/* navbar */
+/* start header */
+header h1{
+  font-size: 65px;
+  line-height: 66px;
+
+}
+header .cta{
+  backdrop-filter: blur(5px);
+  background: linear-gradient(92.55deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.09) 49.25%, rgba(255, 255, 255, 0.15) 98.51%);
+  padding: 24px 64px;
+  border: 1px;
+  border-radius: 64px;
+width :168px;
+height: 67px;
+}
   header picture img:hover {
     animation: shake 1.5s infinite;
   }
   header {
-    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.5) , rgba(0 ,0 ,0 , 0.5) ) ,url(images/im-6.jpg);
+    background-image: linear-gradient(rgba(0 ,0 ,0 , 0.5) , rgba(0 ,0 ,0 , 0.5) ) ,url('images/backgroundFigma.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,4 +155,7 @@
     }
 
   }
-  
+  /* end header */
+  /* start partners */
+
+  /* end partners */
